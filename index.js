@@ -1,5 +1,5 @@
 // Day1 Task 1
-// function getNumberInput() {
+
 //     let number;
   
 //       const input = prompt("Enter a number between 0 and 100:");
@@ -9,16 +9,14 @@
 
 //       if (!isNaN(number) && number >= 0 && number <= 100) {
        
-//         return number;
+//         console.log(number) ;
 //       } else {
       
 //         alert("Invalid input. Please enter a number between 0 and 100.");
-//       }
-    
-//   }
+//       }    
+  
  
-//   const userInput = getNumberInput();
-//   alert(`You entered: ${userInput}`);
+//   alert(`You entered: ${input}`);
 
 
 
@@ -123,4 +121,113 @@
 //  console.log(score);
 //  score /= 5;
 //  console.log(score);
+
+//===========================================================================================
+// Day1 Task 7
+
+//  let age = 5;
+
+//     if (isNaN(age) || age < 0) {
+//         console.log("Invalid input: Please enter a non-negative number.");
+//   }  else if(age < 5){
+//     console.log("Ticket Price: Free entry.");
+
+//   }
+//   else if(age <= 12){
+//     console.log("Ticket Price: $10.");
+
+//   }
+//   else if(age <= 60){
+    
+//     console.log("Ticket Price: $20.");
+// }else{
+//     console.log("Ticket Price: $15.");
+
+// }
+
+
+//===========================================================================================
+// Day1 Task 8
+
+// let year = 2008;
+
+// if (isNaN(year) || year < 0) {
+//     console.log("Invalid input: Please enter a positive number.");
+
+// } else if(year % 4 === 0){
+//     console.log(year + " is a leap year.");
+// }else{
+//     console.log(year + " is not a leap year.");
+// }
+
+
+//===========================================================================================
+// Day1 Task 9
+
+// let n = 5;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${n} x ${i} = ${n * i}`);
+// }
+
+
+//===========================================================================================
+// Day1 Task 10
+
+
+// let prime = 40;
+// let isPrime ;
+
+// for(let x = 2 ; x <= 50 ;x++){
+
+//     for (let i = 2 ; i <= Math.sqrt(prime);i++ ){
+    
+//         if(prime % i === 0 ){
+            
+//            isPrime = "Not Prime";
+//            break;
+//         }else{
+//             isPrime = "Prime"
+//         }
+//     }
+// }
+// console.log(isPrime)
+
+
+//===========================================================================================
+// Day1 Task 11
+
+// let rows = 5;
+// let pattern = "*"
+// for (let i = rows ; i >= 1 ;i--){
+//     let row = "";
+//     for(let j = 1 ; j <=i ;j++){
+//         row += pattern
+//     }
+//     console.log(row)
+// }
+
+
+
+//===========================================================================================
+// Day1 Task 12
+
+
+// for( let i = 1 ; i<= 50;i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log(`${i} is FizzBuzz`)
+        
+//     } else if(i % 3 === 0){
+//         console.log(`${i} is Fizz`)
+//     } else if(i % 5 === 0){
+//         console.log(`${i} is Buzz`)
+//     }
+// }
+
+// Challenge
+// for( let i = 1 ; i<= 50;i++){
+//    (i % 3 === 0 && i % 5 === 0 ) && console.log(`${i} is FizzBuzz`) ||
+//    (i % 3 === 0) &&  console.log(`${i} is Fizz`) ||
+//    (i % 5 === 0) &&  console.log(`${i} is Buzz`)
+// }
+
 
